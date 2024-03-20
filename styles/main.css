@@ -1,0 +1,530 @@
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+@font-face {
+    font-family: Montserat-regular;
+    src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserat-bold;
+    src: url('/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserat-semi-bold;
+    src: url('/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserat-Medium;
+    src: url('/fonts/Montserrat-Medium.ttf');
+}
+
+.basic-container{
+    max-width: 1920px;
+    margin: 0 auto;
+   
+}
+.container{
+   max-width: 1170px;
+   width: 1170px;
+   margin: 0 auto;
+
+}
+
+main{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.text-decoration1{
+    font-family: Montserat-regular;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 50%;
+}
+
+.text-decoration2{
+    font-family: Montserat-bold;
+    font-size: 72px;
+    letter-spacing: 10%;
+}
+
+.text-decoration3{
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+    letter-spacing: 10%;
+}
+
+.text-decoration4{
+    font-family: Montserat-Medium;
+    font-size: 18px;
+    letter-spacing: 10%;
+}
+
+.text-decoration5{
+    font-family: Montserat-bold;
+    font-size: 64px;
+    letter-spacing: 5%;
+}
+
+.text-decoration6{
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+    letter-spacing: 10%;
+    color: #A52424;
+    line-height: 140%;
+    position: relative;
+    left: 100px;
+    bottom: -105px;
+}
+
+.text-decoration7{
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+    letter-spacing: 10%;
+    color: #A52424;
+    line-height: 140%;
+    margin-top: 100px;
+}
+
+.text-decoration7{
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+    letter-spacing: 10%;
+    color: #A52424;
+    line-height: 140%;
+    margin-top: 98px;
+}
+
+.text-decoration8{
+    font-family: Montserat-regular;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 5%;
+    padding-right: 40px;
+}
+
+.text-decoration9{
+    font-family: Montserat-bold;
+    font-size: 64px;
+    letter-spacing: 5%;
+    margin-top: 140px;
+}
+
+.text-decoration10{
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+    letter-spacing: 10%;
+    color: black;
+    line-height: 140%;
+}
+
+.text-decoration11{
+    padding-top: 170px;
+    font-family: Montserat-semi-bold;
+    font-size: 24px;
+    letter-spacing: 5%;
+    color: #A52424;
+}
+
+.text-decoration12{
+    font-family: Montserat-Medium;
+    font-size: 18px;
+    letter-spacing: 10%;
+}
+
+.text-decoration13{
+    font-family: Montserat-semi-bold;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 10%;
+}
+
+.text-decoration14{
+    font-family: Montserat-semi-bold;
+    font-size: 36px;
+    letter-spacing: 10%;
+    color: #A52424;
+}
+
+
+/* HEADER */
+
+header{
+    padding-top: 30px ;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+header div img{
+    display: flex;
+    width: 109px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 205px;
+    width: 536px;
+    height: 23px; 
+    min-width: 536px;   
+}
+
+.phone{
+    display: flex;
+    width: 183px;
+    height: 23px;
+    margin-left: 150px;  
+}
+
+header div a{
+    text-decoration: none;
+    color: #A52424;
+}
+
+/* PHOTOGRAPH */
+
+.photograph{
+    display: flex;
+    justify-content: space-between;
+    height: 685px;
+}
+
+.name-photograph{
+    width: 443px;
+    height: 347px;
+    margin-top: 20px;
+}
+
+.session{
+    margin-top: 40px;
+    width: 336px;
+    height: 60px;
+    border-color: #A52424;
+    color: #A52424 ;
+    border-style: solid;
+    background: none;
+}
+
+.main-photo{
+    display: flex;
+    width: 674px;
+    height: 677px;
+    margin-top: 11px;
+    
+}
+
+/* ABOUT ME */
+
+.about-me{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-item1{
+    height: 700px;
+    width: 374px;
+}
+
+.about-me-item2{
+    height: 700px;
+    width: 664px;
+}
+
+.about-me-item1-shadow{
+    margin-top: 60px;
+    height: 560px;
+    width: 343px;
+    box-shadow: -5px 5px 40px lightgray;
+}
+
+div .about-me-item1-shadow img{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+
+.about-me-item2-shadow{
+    height: 330px;
+    width: 568px;
+    box-shadow: -5px 5px 40px lightgrey;
+    margin-left: 98px;
+}
+
+div .about-me-item2-shadow img{
+    position: relative;
+    right: 107px;
+    top: 30px;
+
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    height: 1078px;
+}
+
+.portfolio-item{
+height: 800px;
+display: flex;
+justify-content: space-between;
+}
+
+.portfolio-items{
+    width: 377px;
+}
+
+.session1{
+    width: 202px;
+    height: 60px;
+    border-color: #A52424;
+    color: #A52424 ;
+    border-style: solid;
+    background: none;
+}
+
+/* PRICES */
+
+.prices{
+    height: 850px;
+}
+
+.fl{
+    height: 850px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.prices-items{
+    height: 850px;
+}
+
+.prices-item{
+    width: 509px;
+    height: 477px;
+}
+
+.price-item-shadow1{
+    margin-top: 160px;
+    height: 395px;
+    box-shadow: -5px 5px 40px lightgrey;
+    padding: 40px;
+}
+
+.price-item-shadow2{
+    margin-top: 380px;
+    height: 390px;
+    box-shadow: -5px 5px 40px lightgrey;
+    padding: 40px;
+}
+
+div .price-item-shadow1 img{
+    height: 290px;
+    width: 290px;
+    position: absolute;
+    left: 109px;
+    top: 270px;
+}
+
+div .price-item-shadow2 img{
+    height: 290px;
+    width: 290px;
+    position: absolute;
+    right: 109px;
+    top: 270px;
+}
+
+ div .centr h2{
+    text-align: center;
+}
+
+.d-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.session2{
+    margin-top: 10px;
+    width: 202px;
+    height: 60px;
+    border-color: #A52424;
+    color: #A52424 ;
+    border-style: solid;
+    background: none;
+}
+
+/* RECORDING */
+
+.recording{
+    height: 850px;
+}
+
+.recording-items{
+    display: flex;
+    justify-content: space-between;
+    height: 690px;
+}
+
+.recording-photo{
+    display: flex;
+    width: 595px;
+}
+
+.recording-adress{
+    display: flex;
+    width: 476px;
+}
+
+.recording-photo1{
+    position: relative;
+    left: -10px;
+    top: 45px;
+    
+    width: 300px;
+    height: 500px;
+
+}
+
+.recording-photo2{
+    position: relative;
+    top: -6px;
+    right: 40px;
+    width:  350px;
+    height: 600px;
+    
+}
+
+.recording-adress{
+    display: flex;
+    display: inline-block;
+}
+
+.size1{
+    display: flex;
+    width: 476px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.size2{
+    margin-top: 40px;
+    display: flex;
+    width: 476px;
+    height: 221px;
+}
+
+.client-name{
+    width: 476px;
+    height: 60px;
+    padding-left: 20px;
+    font-family: Montserat-regular;
+    font-size: 18px;
+    line-height: 130%;
+    color: gray;
+    border: 1px solid gray;
+
+}
+
+.mail-adress{
+    width: 476px;
+    height: 60px;
+    padding-left: 20px;
+    font-family: Montserat-regular;
+    font-size: 18px;
+    line-height: 130%;
+    color: gray;
+    border: 1px solid gray;
+
+}
+
+.massage{
+    width: 476px;
+    height: 221px;
+    padding-left: 20px;
+    font-family: Montserat-regular;
+    font-size: 18px;
+    line-height: 130%;
+    color: gray;
+    border: 1px solid gray;
+
+}
+.send{
+    margin-top: 40px;
+    width: 476px;
+    height: 60px;
+    font-family: Montserat-Medium;
+    font-size: 18px;
+    letter-spacing: 10%;
+    background: none;
+    border: 1px solid #A52424;
+}
+
+.send a{
+    text-decoration: none;
+    background: none;
+    color: #A52424;
+}
+
+.foo{
+    height: 157px;
+    display: flex;
+    align-items: center;
+}
+
+.foo div .footer img{
+    width: 109px;
+    height: 84px;
+    border-top: 1px solid grey;
+}
+
+footer div a{
+    text-decoration: none;
+    background: none;
+    color: #A52424;
+    font-family: Montserat-semi-bold;
+    font-size: 22px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.phone1{
+    width: 230px;
+    height: 31px;
+    margin-left: 295px;
+}
+
+.socials{
+    width: 190px;
+    height: 30px;
+    margin-left: 377px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foo .footer .socials img .size-socials {
+    width: 30px;
+    height: 30px;
+    
+}
+
+main{
+    border-bottom: 1px solid grey;
+}
+
+
+
+
